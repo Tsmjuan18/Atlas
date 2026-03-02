@@ -87,9 +87,7 @@
 
 .inside-section{
 
-    background: #00FFC8;
-    padding: 120px 0;        
-    clip-path: polygon( 0 20%,100% 0,100% 100%,0% 100%);
+   background:linear-gradient(-10deg, #19d3a2 50%, #ffffff 50%);
 }
 
 .inside-top{
@@ -97,15 +95,20 @@
     flex-direction: row;
     max-width: 100%;
     padding: 200px 0;
+    gap: 70px;
 }
 
 
 .inside-text{
     
     max-width: 773px;
-    padding-left: 95px;  
+    padding-left: 240px;  
     
     
+}
+
+.inside-text p{
+    padding: 30px 0;
 }
 
 
@@ -127,13 +130,14 @@
     display: flex;
     flex-direction: row;
     max-width: 100%;
+    gap: 70px;
 
 }
 
 .safe-text{
 
-    max-width: 773px;
-    padding-left: 295px;  
+    max-width: 700px;
+    
 
 }
 
@@ -150,6 +154,106 @@
 
 }
 
+
+.safe-text p{
+    padding: 30px 0;
+}
+
+.safe-content .safe-image {
+    padding-left: 160px;
+}
+
+/*Pricing*/
+
+
+.pricing{
+    text-align: center;
+    max-width: 100%;
+    
+}
+
+.pricing h2{
+    margin: 20px 0;
+}
+
+.container-plan{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.plan-premium{
+    max-width: 350px;
+    background-color: #1B2644;
+    color: white;
+    height: 459px;
+    padding: 60px 16px;
+}
+
+.plan-premium span{
+    font-size: 90px;
+    font-family: sans-serif;
+}
+
+.plan-premium button{
+    border: none;
+    background: #00FFC8;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.plan-premium p{
+    width: 163px;
+    padding: 20px 0;
+}
+
+.plan{
+    max-width: 350px;  
+    height: 459px;
+    padding: 60px 16px;
+
+
+}
+.plan span{
+    font-size: 90px;
+    font-family: sans-serif;
+}
+
+.plan p{
+    width: 163px;
+    padding: 20px 0;
+}
+
+.plan button{
+     border: none;
+    background: #ffffff;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 2px solid black;
+}
+
+.section-publicity{
+
+    background-color: #E9ECEF;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 30px 0;
+}
 
 
 
