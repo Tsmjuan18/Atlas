@@ -346,6 +346,187 @@
     transition: 0.3s ;
 }
 
+/*FOOTER*/
+.section-footer{
+    background-color:#142246;
+    color: white;
+    height: 80px;
+    
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 21px 27px 0px 27px
+}
+.reds{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.reds a{
+    text-decoration: none;
+}
+
+
+.fa-facebook-f{
+    background: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.fa-twitter{
+    background: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+
+}
+
+.fa-envelope{
+    background: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+
+}
+
+.fa-linkedin{
+
+    background: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+
+}
+
+/*MEDIA QUERY*/
+/*Latops, larger tablets in landscape, and small desktops*/
+@media (max-width:1279px){
+    
+    .inside-top{
+    
+    padding: 200px 0;
+    gap: 0;
+    }
+    .inside-text {
+    max-width: 573px;
+    padding-left: 240px;
+    }
+    .safe-content .safe-image {
+    padding-left: 60px;
+    }
+    .safe-content {
+    
+    width: 100%;
+    
+    }
+
+    .safe-text p {
+    
+    max-width: 238px;
+    }
+
+    .contact-info {
+    padding: 67px 0px 0px 114px;
+    
+    gap: 20px;
+    }
+
+    .Message {
+    width: 80%;
+    }
+
+    .images{
+        gap: 54px;
+    }
+
+    .contact-content{
+    max-width: 516px;
+    padding: 68px 0px 0px 94px;
+    }
+
+    .footer {
+        padding: 21px 72px 0px 88px
+    }
+
+}
+
+
+
+@media (max-width:920px){
+
+    .inside-text{
+        padding-left: 16px;
+    }
+
+    .safe-content .safe-image {
+        padding-left: 0;
+    }
+
+    .safe-content {    
+    gap: 17px;
+    }
+
+    .images {
+        gap: 19px;
+    }
+    
+
+}
+
+@media (max-width:769px){
+    .inside-top{
+        flex-wrap: wrap;
+    }
+    .safe-content{
+        flex-wrap: wrap;
+    }
+
+    .safe-content {
+        
+        flex-wrap: wrap;
+    }
+    
+    .safe-text {
+    padding: 22px 0 40px 87px;
+    }
+
+     .images {
+        gap: 0px;
+        flex-wrap: wrap;
+    }
+}
+/*Tablets  y larger smarthphones*/
+
+
+@media (max-width:481px){
+
+}
+
+/*Smaller Smarthphones*/
+@media (max-width:480px){
+
+}
+
+@media (max-width:352px){
+
+}
+
 
 
 
