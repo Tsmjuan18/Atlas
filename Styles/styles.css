@@ -258,7 +258,7 @@
 /*contact-content*/
 
 .section-contact{
-    background-image: url("/Assets/images/contact-bk.jpg");
+    background-image: url("../Assets/images/contact-bk.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
